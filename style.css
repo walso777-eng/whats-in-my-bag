@@ -6,6 +6,7 @@ body {
     color:white;
     margin: 0;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
     background-image: url("images/bag-leather.jpg");
     background-size: cover;
     background-position:center;
@@ -19,12 +20,26 @@ header {
 header h1 {
     font-size: 75px;
     margin: 0;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    padding: 35px 40px;
+    border-bottom: 1px solid white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 75px;
     letter-spacing: -2px;
 }
 
 header p {
     font-size: 15px;
     margin-top: 8px;
+    margin-top: 8px;
+    font-size: 15px;
 }
 
 main {
@@ -79,6 +94,8 @@ main {
     right: 30px;
     width: 360px;
     height: calc(100vh - 60px);
+    background: white; 
+    color:black; 
     background-position:center ;
     padding: 30px;
     overflow-y: auto;

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's In My Bag?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+    <h1>Whats in my bag?</h1>
+    </header>
+
+     <section class="catalog">
+     <button class="object" onclick="showInfo('computer')">
+      <img src="images/computer.png" alt="Computer">
+     <h2>COMPUTER </h2> 
+
+     </button>
+     <button class="object" onclick="showInfo('phone')">
+     <img src="images/phone.png" alt="Phone">
+     <h2>PHONE</h2>
+     </button>
+
+     <button class="object" onclick="showInfo('sketchbook')">
+     <img src="images/sketchbook.png" alt="Sketchbook">
+     <h2> SKETCHBOOK</h2>
+     </button>
+
+     <button class="object" onclick="showInfo('fan')">
+     <img src="images/fan.png" alt="Fan">
+     <h2>FAN</h2>
+     </button>
+
+     <button class="object" onclick="showInfo('camera')">
+     <img src="images/camera.png" alt="Camera">
+     <h2>CAMERA</h2>
+     </button>
+
+     <button class="object" onclick="showInfo('charger')">
+     <img src="images/portablecharger.png" alt="Portable Charger">
+     <h2>PORTABLE CHARGER</h2>
+     </button>
+
+     <button class="object" onclick="showInfo('keys')">
+     <img src="images/keys.png" alt="Keys">
+     <h2>KEYS</h2>
+     </button>
+
+     <button class="object" onclick="showInfo('sunglasses')">
+     <img src="images/sunglasses.png" alt="Sunglasses">
+     <h2> SUNGLASSES</h2>
+     </button>
+
+     <button class="object" onclick="showInfo('wallet')">
+     <img src="images/wallet.png" alt="Wallet">
+     <h2>WALLET</h2>
+     </button>
+
+     <button class="object" onclick="showInfo('gum')">
+     <img src="images/gum.png" alt="Gum">
+     <h2>GUM </h2>
+     </button>
+
+     <button class="object" onclick="showInfo('fidget')">
+     <img src="images/fidget.png" alt="Fidget Spinner">
+     <h2>FIDGET SPINNER</h2>
+     </button>
+
+     <button class="object" onclick="showInfo('pens')">
+     <img src="images/pen-pencils.png" alt="Pens and Pencils">
+     <h2>PENS + PENCILS</h2>
+     </button>
+
+     <section id="info-panel" class="info-panel">
+     <button class="close-button" onclick="closeInfo()">×</button>
+     <img id="info-image" src="" alt="">
+     <h2 id="info-title"></h2>
+
+     <div class="info-section">
+     <h3> CATEGORY</h3>
+     <p id="info-category"></p>
+     </div>
+
+     <div class="info-section">
+     <h3>PHYSICAL ATTRIBUTES</h3>
+     <p id="info-physical"></p>
+     </div>
+
+     <div class="info-section">
+     <h3>FUNCTIONAL ATTRIBUTES</h3>
+     <p id="info-functional"></p>
+     </div>
+
+     <div class="info-section"> 
+     <h3>PERSONAL / CONTEXTUAL</h3>
+     <p id="info-personal"></p>
+     </div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
